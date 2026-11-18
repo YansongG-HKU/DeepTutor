@@ -1,0 +1,11 @@
+RUN_ID=20261118T023104Z-4385
+HOME_DIR=/tmp/deeptutor-verify-20261118T023104Z-4385
+FRONTEND_URL=http://127.0.0.1:52519
+BACKEND_URL=http://127.0.0.1:49417
+FRONTEND_PORT=52519
+BACKEND_PORT=49417
+LAUNCHER_PID=4409
+EVIDENCE_DIR=/workspace/.cursor/skills/verify-deeptutor/artifacts/20261118T023104Z-4385
+VERSION=1.6.15
+REPO_ROOT=/workspace
+STATE_FILE=/workspace/.cursor/skills/verify-deeptutor/run/current.env

@@ -1,0 +1,45 @@
+- alert
+- complementary:
+  - link "DeepTutor DeepTutor":
+    - /url: /
+    - img "DeepTutor"
+    - img "DeepTutor"
+  - button "Collapse sidebar"
+  - link "Home":
+    - /url: /chat
+  - navigation:
+    - link "Partners":
+      - /url: /partners
+    - button "Arrange Partners"
+    - link "Personalized Learning":
+      - /url: /learning
+    - button "Arrange Personalized Learning"
+    - link "Learning Space":
+      - /url: /space
+    - button "Arrange Learning Space"
+    - link "Task Board":
+      - /url: /kanban
+    - button "Arrange Task Board"
+    - button "More 2"
+  - text: No conversations yet
+  - link "Settings":
+    - /url: /settings
+  - link "Update available":
+    - /url: /settings/about
+  - tooltip "Update available"
+  - separator "Resize sidebar"
+- main:
+  - complementary:
+    - link "Learning Space":
+      - /url: /space
+    - heading "Notebooks 0" [level=1]
+    - button "New notebook" [expanded]
+    - tooltip "New notebook"
+    - textbox "Notebook name": Verification notebook
+    - textbox "Description (optional)": Created from the browser
+    - button "Create"
+    - button "Cancel"
+    - navigation:
+      - paragraph: No notebooks yet.
+  - paragraph: No notebook selected
+  - paragraph: Pick a notebook on the left, or create one to get started.

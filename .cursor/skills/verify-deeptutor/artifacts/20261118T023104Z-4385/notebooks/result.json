@@ -1,0 +1,12 @@
+{
+  "feature": "notebooks",
+  "entry": "browser Learning Space → Notebooks",
+  "pass": true,
+  "notebook_id": "68c7c2ec",
+  "cli": "deeptutor notebook show --format json",
+  "stored_file": "data/user/workspace/notebook/68c7c2ec.json",
+  "run_id": "20261118T023104Z-4385",
+  "frontend_url": "http://127.0.0.1:52519",
+  "version": "1.6.15",
+  "headless": false
+}

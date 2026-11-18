@@ -142,8 +142,9 @@ web/playwright-report/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# Cursor
-.cursor/
+# Cursor local state. The project verification skill is tracked.
+.cursor/*
+!.cursor/skills/
 
 # PyCharm / IntelliJ IDEA
 .idea/
