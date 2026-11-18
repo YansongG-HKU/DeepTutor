@@ -1,0 +1,50 @@
+- alert
+- complementary:
+  - link "DeepTutor DeepTutor":
+    - /url: /
+    - img "DeepTutor"
+    - img "DeepTutor"
+  - button "Collapse sidebar"
+  - link "Home":
+    - /url: /chat
+  - navigation:
+    - link "Partners":
+      - /url: /partners
+    - button "Arrange Partners"
+    - link "Personalized Learning":
+      - /url: /learning
+    - button "Arrange Personalized Learning"
+    - link "Learning Space":
+      - /url: /space
+    - button "Arrange Learning Space"
+    - link "Task Board":
+      - /url: /kanban
+    - button "Arrange Task Board"
+    - button "More 2"
+  - text: No conversations yet
+  - link "Settings":
+    - /url: /settings
+  - link "Update available":
+    - /url: /settings/about
+  - tooltip "Update available"
+  - separator "Resize sidebar"
+- main:
+  - complementary:
+    - link "Learning Space":
+      - /url: /space
+    - heading "Notebooks 1" [level=1]
+    - button "New notebook"
+    - tooltip "New notebook"
+    - navigation:
+      - button "Verification notebook 0 Created from the browser"
+      - button "Edit notebook"
+      - tooltip "Edit notebook"
+  - heading "Verification notebook" [level=2]
+  - paragraph: Created from the browser
+  - text: 0 records
+  - button "Export as Markdown"
+  - tooltip "Export as Markdown"
+  - button "Delete notebook"
+  - tooltip "Delete notebook"
+  - paragraph: This notebook is empty
+  - paragraph: Save something to it from a chat, research run, or Co-Writer document.

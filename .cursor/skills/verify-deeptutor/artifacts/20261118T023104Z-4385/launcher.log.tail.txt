@@ -1,0 +1,77 @@
+INFO    deeptutor.services.setup.init - Created default settings: /tmp/deeptutor-verify-20261118T023104Z-4385/data/user/settings/main.yaml
+INFO    deeptutor.services.setup.init - Created default settings: /tmp/deeptutor-verify-20261118T023104Z-4385/data/user/settings/agents.yaml
+INFO    deeptutor.services.setup.init - Seeded default personas: peer, research-assistant, teacher
+╭───────────────────────────────── DeepTutor ──────────────────────────────────╮
+│                                                                              │
+│   ____                  _____      _                                         │
+│  |  _ \  ___  ___ _ __ |_   _|   _| |_ ___  _ __                             │
+│  | | | |/ _ \/ _ \ '_ \  | || | | | __/ _ \| '__|                            │
+│  | |_| |  __/  __/ |_) | | || |_| | || (_) | |                               │
+│  |____/ \___|\___| .__/  |_| \__,_|\__\___/|_|                               │
+│                  |_|                                                         │
+│                                                                              │
+│  Agent-Native Personalized Tutoring  ·  v1.6.15                              │
+│  Data Intelligence Lab @ HKU                                                 │
+│  Launching backend + frontend                                                │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Backend    http://127.0.0.1:49417
+Frontend   http://localhost:52519
+Workspace  /tmp/deeptutor-verify-20261118T023104Z-4385
+Frontend runtime: source
+Press Ctrl+C to stop.
+Starting backend ...
+Waiting for Backend at http://127.0.0.1:49417/ ...
+  backend  INFO:     Started server process [4412]
+  backend  INFO:     Waiting for application startup.
+  backend  WARNING deeptutor.api.main - Failed to initialize LLM client at startup: No active LLM model is configured. Please set it in Settings > Catalog.
+  backend  INFO:     Application startup complete.
+  backend  INFO:     Uvicorn running on http://0.0.0.0:49417 (Press CTRL+C to quit)
+Backend is ready.
+Starting frontend ...
+Waiting for Frontend at http://127.0.0.1:52519/ ...
+  frontend 
+  frontend > opentutor-web@1.0.0 predev
+  frontend > node ./scripts/copy-pdfjs-assets.mjs
+  frontend 
+  frontend 
+  frontend > opentutor-web@1.0.0 dev
+  frontend > node ./scripts/dev.mjs --port 52519
+  frontend 
+  frontend ▲ Next.js 16.2.3 (Turbopack)
+  frontend - Local:         http://localhost:52519
+  frontend - Network:       http://172.30.0.2:52519
+  frontend ✓ Ready in 337ms
+  frontend Attention: Next.js now collects completely anonymous telemetry regarding usage.
+  frontend This information is used to shape Next.js' roadmap and prioritize features.
+  frontend You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+  frontend https://nextjs.org/telemetry
+  frontend 
+  frontend - Experiments (use with caution):
+  frontend   · proxyClientMaxBodySize: 220200960
+  frontend   · proxyTimeout: 1800000
+  frontend 
+  frontend ○ Compiling /chat ...
+Frontend is ready.
+  frontend  GET /chat 200 in 39ms (next.js: 3ms, proxy.ts: 3ms, application-code: 33ms)
+Open http://localhost:52519 in your browser.
+  frontend  GET /chat 200 in 57ms (next.js: 6ms, proxy.ts: 3ms, application-code: 48ms)
+  frontend  GET /chat 200 in 50ms (next.js: 4ms, proxy.ts: 3ms, application-code: 43ms)
+  frontend  GET /chat 200 in 44ms (next.js: 5ms, proxy.ts: 4ms, application-code: 35ms)
+  frontend  GET /chat 200 in 94ms (next.js: 3ms, proxy.ts: 3ms, application-code: 89ms)
+  frontend  GET /chat 200 in 75ms (next.js: 7ms, proxy.ts: 7ms, application-code: 61ms)
+  frontend  GET /space 200 in 945ms (next.js: 914ms, proxy.ts: 5ms, application-code: 26ms)
+  frontend  GET /notebooks 200 in 1637ms (next.js: 1610ms, proxy.ts: 2ms, application-code: 25ms)
+  frontend  GET /chat 200 in 66ms (next.js: 9ms, proxy.ts: 3ms, application-code: 54ms)
+  frontend  GET /space 200 in 27ms (next.js: 3ms, proxy.ts: 6ms, application-code: 18ms)
+  frontend  GET /notebooks 200 in 21ms (next.js: 7ms, proxy.ts: 1532µs, application-code: 13ms)
+  frontend  GET /notebooks/68c7c2ec 200 in 75ms (next.js: 54ms, proxy.ts: 2ms, application-code: 19ms)
+  frontend  GET /notebooks/68c7c2ec 200 in 22ms (next.js: 6ms, proxy.ts: 3ms, application-code: 13ms)
+  frontend  GET /notebooks/68c7c2ec 200 in 113ms (next.js: 14ms, proxy.ts: 3ms, application-code: 95ms)
+Received STOP; shutting down ...
+Stopping backend (PID 4412)
+  backend  INFO:     Shutting down
+  backend  INFO:     Waiting for application shutdown.
+  backend  INFO:     Application shutdown complete.
+  backend  INFO:     Finished server process [4412]
+Stopping frontend (PID 4419)
